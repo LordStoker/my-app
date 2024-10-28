@@ -1,5 +1,8 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import "./styles.css";
+// import reactLogo from "./img/react-logo.png";
+
 
 
 // ReactDOM.render(<p>Lista desordenada</p>, document.getElementById("root"));
@@ -80,9 +83,72 @@ import ReactDOM from "react-dom";
 // );
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
+// const nav = 
+// <nav>
+// <h1>Website</h1>
+// <ul>
+//     <li>Pricing</li>
+//     <li>About</li>
+//     <li>Contact</li>
+// </ul>
+// </nav>;
+// ReactDOM.render(
+//      <nav>
+//          <h1>Website</h1>
+//          <ul>
+//              <li>Pricing</li>
+//              <li>About</li>
+//             <li>Contact</li>
+//          </ul>
+//      </nav>*nav, document.getElementById("root")
+// );
+
+// const jsxElements = (
+//     <div>
+//         <h1>Página web</h1>
+//         <h2>Soy el encabezado 2</h2>
+//         <p>Soy un párrafo</p>
+//         <ul>
+//             <li>Elemento 1</li>
+//             <li>Elemento 2</li>
+//         </ul>
+//     </div>
+// );
+
+
+// console.log(jsxElements);
+// ReactDOM.render(jsxElements, document.getElementById("root"));
+
+// const website = (
+//     <div>
+//     <img src="https://static-00.iconduck.com/assets.00/react-icon-256x256-2yyldh38.png" width="40px"></img>
+//     <h1>Fun facts about React</h1>
+//     <ul>
+//         <li>Was first released in 2013</li>
+//         <li>Was originally created by Jordan Walke</li>
+//         <li>Has well over 100K stars on Github</li>
+//         <li>Is maintained by Facebook</li>
+//         <li>Powers thousands of enterprise apps, including mobile apps</li>
+//     </ul>
+// </div>
+// );
+
+// ReactDOM.render(website, document.getElementById("root"));
+
+// import Header from "./components/Header.jsx";
+// import Footer from "./components/Footer.jsx";
+// import Content from "./components/Content.jsx";
+// function App(){
+//     return(
+//         <div className="container">
+//             <Header />
+//             <Content />
+//             <Footer />
+//         </div>
+//     );
+// }
+
+import App from "./App";
+
+ReactDOM.render(<App />, document.getElementById("root"));
+
